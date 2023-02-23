@@ -50,12 +50,15 @@ This is a sample of the dataset after the first step.
 
 Here we have the dataset cleaned, with all the missing values filled and the non-numerical attributes turned into numerical ones.
 
-The evaluation of the chosen model.
+**The evaluation of the chosen model.**
+
+The model chosen to make the predictions was the Random Forest Classifier. Although other models could be used to do the analysis, this one was chosen for a few reasons. After testing four differente models — LinearSVC, K-Nearest Neighboor,Decision Tree Classifier, and Random Forest Classifier —, we evaluated those models. The one with the best performance was the Random Forest Classifier, with higher values for the evaluation metrics than the others. Another important factor is that the Random Forest Classifier is a method that ensembles other methods, in order to be more accurated making the predictions. In addition, the Random Forest Classifier presented a higher value for the F1-Score metric, a relevant metric to evaluate classification models, given that it combine two other metrics: recall and precision.
+
 1. The classification report from the Scikit Learn library, _metrics_
 
 ![report_choosen_model](https://user-images.githubusercontent.com/46689116/219475102-19f6f9fe-9f85-41f7-8c42-897479a882a7.png)
 
-Here we have the metrics such as Accuracy, Precision and Recall. All of them has values that go above 70%, higher than the other models tested.
+Here we have the metrics such as Accuracy, Precision and Recall. All of them has values that go above 0.70, higher than the other models tested.
 
 2. And, the confusion matrix, also from _metrics_
 
