@@ -15,7 +15,7 @@ The proposal was to build a classification model, using one of the provided data
     - Filling (also called imputing) or disregarding missing values
     - Converting non-numerical values to numerical values (also called feature encoding)
 2. **Choosing the right algorithm for the problem**
-    - Selecting the algorithms based on the Scikit Learn machine learning map (https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
+    - Selecting algorithms to test and evaluate their performance
     - Implementing the models
     - Evaluating the models
     - Choosing the best one, based on the evaluation metrics
