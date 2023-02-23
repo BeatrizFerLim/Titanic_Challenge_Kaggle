@@ -4,9 +4,6 @@
 Script built to try and solve the Titanic Challenge, one of the many competitions that we can find in Kaggle.
 The proposal was to build a classification model, using one of the provided data files, to predict who survived the sinking of the Titanic. Then another data file was provided so that we could test our model and analyze its performance.
 
-### Access
-https://github.com/BeatrizFerLim/Titanic_Challenge_Kaggle
-
 ## Used Technologies
 * **Python** - The source code is written in Python
 * **Jupyter Notebook** - The platform of choice to implement this project
